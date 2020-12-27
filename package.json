@@ -1,0 +1,21 @@
+{
+  "name": "interleaving-inspector",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./build-monaco-workers.sh && parcel serve index.html",
+    "build": "./build-monaco-workers.sh && parcel build index.html"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "monaco-editor": "^0.21.2",
+    "parcel": "^1.12.4",
+    "sass": "^1.30.0",
+    "typescript": "^4.1.3"
+  },
+  "browserslist": "last 1 Chrome version"
+}
